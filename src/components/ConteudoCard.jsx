@@ -1,9 +1,9 @@
 import React from "react";
 
-function ConteudoCard(){
-    return(
+// function ConteudoCard(){
+//     return(
 
-    )
-}
+//     )
+// }
 
 export default ConteudoCard

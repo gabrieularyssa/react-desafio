@@ -38,9 +38,9 @@ input, select{
   border: solid 2px blue;
   margin-bottom: 40px;
 }
-button{
+.inserir{
   width: 270px;
-  height: 35px;
+  height: 40px;
   background-color: blue;
   color: #ffffff;
   border: solid 2px #ffffff;
