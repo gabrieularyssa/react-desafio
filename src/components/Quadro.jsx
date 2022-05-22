@@ -1,32 +1,17 @@
 import React from "react";
-
+import Card from "./Card";
+import TituloTarefa from "./TituloTarefa";
 function QuadroTarefas() {
     return (
         <>
             <p>Cadastrar Uma Tarefa</p>
-            <div className="titulo"> 
-                <div className="aFazer">
-                    A Fazer
-                </div>
-                <div className="fazendo">
-                    Fazendo
-                </div>
-                <div className="finalizado">
-                    Finalizado
-                </div>
+            <div className="titulo">
+                <TituloTarefa titulo="Fazer" />
+                <TituloTarefa titulo="Fazendo" />
+                <TituloTarefa titulo="Finalizado" />
             </div>
-            <div className="tarefas">
-                <div className="aFazer2">
-                    adfhazd
-                </div>
-                
-                <div className="fazendo2">
-                    adfhazd
-                </div>
-                <div className="finalizado2">
-                    adfhazd
-                </div>
-            </div>
+            <Card />
+            
         </>
         
     )
