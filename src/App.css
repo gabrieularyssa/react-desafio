@@ -49,3 +49,42 @@ button{
   display: flex;
   justify-content: center;
 }
+.titulo, .tarefas{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: auto;
+}
+.aFazer, .fazendo, .finalizado{
+  width: 450px;
+  height: 50px;
+  margin-left: 35px;
+  color: #ffffff;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aFazer{
+  background-color: red;
+}
+.fazendo{
+  background-color: rgb(225, 225, 44);
+}
+.finalizado{
+  background-color: green;
+}
+.aFazer2, .fazendo2, .finalizado2 {
+  width: 450px;
+  height: 50px;
+  margin-left: 35px;
+ 
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

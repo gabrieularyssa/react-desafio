@@ -8,7 +8,7 @@ function Cadastro(){
         <>
             <p>Cadastrar Uma Tarefa</p>
             <div className="inputs">
-                <Inputs tipo="text" classe="tarefa" tarefa="Tarefa"/>
+                <Inputs tipo="text" classe="tarefa" tarefa="Inserir Tarefa"/>
                 <Inputs tipo="date" classe="data" funcao="inserirTarefa" />
                 <Opc /> 
             </div>
@@ -16,6 +16,8 @@ function Cadastro(){
                 <Button classe="inserir" innerText="Inserir Tarefa"/>
             </div>
         </>
+
+
         
     )
 }
