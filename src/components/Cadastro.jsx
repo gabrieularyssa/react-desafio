@@ -17,7 +17,7 @@ function Cadastro(){
             <p>Cadastrar Uma Tarefa</p>
             <div className="inputs">
                 <Inputs tipo="text" classe="tarefa" valor="Inserir Tarefa"/>
-                <Inputs tipo="date" classe="data" />
+                <Inputs tipo="date" classe="data" valor="expiracao"/>
                 <Opc /> 
             </div>
             <div className="button">

@@ -37,6 +37,8 @@ input, select{
   border-radius: 5px ;
   border: solid 2px blue;
   margin-bottom: 40px;
+  cursor: pointer;
+
 }
 .inserir{
   width: 270px;
@@ -44,6 +46,7 @@ input, select{
   background-color: blue;
   color: #ffffff;
   border: solid 2px #ffffff;
+  cursor: pointer;
 }
 .button{
   display: flex;
